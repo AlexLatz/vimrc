@@ -47,10 +47,12 @@ set autoindent
 set shiftwidth=4
 " Enable smart-indent
 set smartindent
-" Enable smart-tabs
-set smarttab
+"Width of tab character
+set tabstop=4
 " Number of spaces per Tab
 set softtabstop=4
+" Spaces instead of tabs
+set expandtab
 " No sidebar and toolbar for gVim
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
