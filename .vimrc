@@ -1,5 +1,4 @@
 call plug#begin()
-Plug 'scrooloose/syntastic'
 Plug 'preservim/nerdtree'
 Plug 'hdiniz/vim-gradle'
 Plug 'sophacles/vim-processing'
@@ -15,9 +14,6 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 "NERDtree autolaunch
 autocmd vimenter * NERDTree
-"Syntastic setup
-let g:syntastic_java_checkers = ['javac']
-let g:syntastic_python_checker = ['python']
 "Gruvbox colors
 syntax enable
 set background=dark
