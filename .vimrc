@@ -7,6 +7,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 Plug 'honza/vim-snippets'
 Plug 'takac/vim-hardtime'
+Plug 'uiiaoo/java-syntax.vim'
 call plug#end()
 "CoC remaps
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
